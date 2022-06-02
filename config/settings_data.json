@@ -1,0 +1,92 @@
+{
+  "current": {
+    "media_shadow_vertical_offset": 12,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/wide-trim-trans.png",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Don't forget to use our coupon to get 50% OFF!",
+              "color_scheme": "background-2",
+              "link": "https:\/\/naileditor.com\/discount\/SPRINGSALE"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/square-trim-trans.png",
+          "logo_width": 250,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": false,
+          "enable_sticky_header": true,
+          "margin_bottom": 12
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-linklist": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-text-0": {
+            "type": "text",
+            "settings": {
+              "heading": "Our Store",
+              "subtext": "<p>We are an online store with multiple nail patch factories across the world. All the patterns in the market are available, as well as DIY customized patterns. Our USA headquarter is in San Diego, CA.<\/p>"
+            }
+          },
+          "footer-image": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
+          "footer-text-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Our Promise",
+              "subtext": "<p>We promise to provide our customers with 100% safe products and products in accordance with Fair Trade & Fair Labor. Our price competitive edge is based on our long-term relationship with the supply chain; We promise to fight against any forms of forced labour or ecologically harmful procedures. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-linklist",
+          "footer-text-0",
+          "footer-image",
+          "footer-text-1"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 48,
+          "padding_bottom": 48
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
